@@ -24,10 +24,10 @@ class Download extends Component {
             </div>
             <div className="row">
               <div className="col-md-5">
-                <a href="downloads/win-blc-wallet.zip" className="blc-button-mid">下载 Win 钱包</a>
+                <a download="win-blc-wallet.zip" href="downloads/win-blc-wallet.zip" className="blc-button-mid">下载 Win 钱包</a>
               </div>
               <div className="col-md-5">
-                <a href="downloads/win-blc-mining-tools.zip" className="blc-button-mid-2">下载 Win 挖矿工具</a>
+                <a download="win-blc-mining-tools.zip" href="downloads/win-blc-mining-tools.zip" className="blc-button-mid-2">下载 Win 挖矿工具</a>
               </div>
             </div>
           </div>
@@ -43,10 +43,10 @@ class Download extends Component {
             </div>
             <div className="row">
               <div className="col-md-5">
-                <a href="downloads/mac-blc-wallet.dmg" className="blc-button-mid">下载 Mac 钱包</a>
+                <a download="mac-blc-wallet.dmg" href="downloads/mac-blc-wallet.dmg" className="blc-button-mid">下载 Mac 钱包</a>
               </div>
               <div className="col-md-5">
-                <a href="downloads/mac-blc-mining-tools.zip" className="blc-button-mid-2">下载 Mac 挖矿工具</a>
+                <a download="mac-blc-mining-tools.zip" href="downloads/mac-blc-mining-tools.zip" className="blc-button-mid-2">下载 Mac 挖矿工具</a>
               </div>
             </div>
           </div>

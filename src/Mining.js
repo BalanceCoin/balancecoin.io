@@ -8,7 +8,7 @@ class Mining extends Component {
           <div className="col-md-12">
             <h1>挖矿</h1>
             <p>简单三个步骤进入低功耗挖矿时代，获得电子货币。</p>
-            <p><a href="downloads/HowToMine-cn.pdf" className="blc-button-mid-2"><span className="glyphicon glyphicon-question-sign"></span>&nbsp;挖矿教程</a></p>
+            <p><a download="HowToMine-cn.pdf" href="downloads/HowToMine-cn.pdf" className="blc-button-mid-2"><span className="glyphicon glyphicon-question-sign"></span>&nbsp;挖矿教程</a></p>
           </div>
         </div>
         <div className="row blc-mining-step-row">
