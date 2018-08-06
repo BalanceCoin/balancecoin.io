@@ -23,8 +23,8 @@ class TopBanner extends Component {
               <div className="blc-lang-pane">
                 <span className="glyphicon glyphicon-globe" aria-hidden="true"></span><button type="button" className="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">中文<span className="caret"></span></button>
                 <ul className="dropdown-menu pull-right">
-                  <li><a href="#">English</a></li>
-                  <li><a href="#">中文</a></li>
+                  <li><a href="#english">English</a></li>
+                  <li><a href="#chinese">中文</a></li>
                 </ul>
               </div>
             </div>
