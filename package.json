@@ -1,0 +1,20 @@
+{
+  "name": "balancecoin.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "sass": "node_modules/sass/sass.js --watch src/balancecoin.scss:src/balancecoin.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "sass": "^1.10.3"
+  }
+}

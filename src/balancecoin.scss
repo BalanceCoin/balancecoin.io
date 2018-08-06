@@ -1,0 +1,274 @@
+@import 'colors';
+@import 'fonts';
+
+$blc-top-band-height: 80px;
+$blc-what-pane-padding: 60px;
+
+h1 {
+  font-size: 30px;
+  color: $blc-main-text-color;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 23px;
+  color: $blc-main-text-color;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  color: $blc-main-text-color;
+}
+
+.blc-page {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.blc-dark-page {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: $blc-background-color;
+}
+
+.blc-block {
+  margin-bottom: 100px;
+}
+
+@mixin button-link($color) {
+  color: $color;
+  text-decoration: none;
+}
+
+@mixin button-links($color) {
+  &:hover {
+    @include button-link($color);
+  }
+  &:active {
+    @include button-link($color);
+  }
+  &:visited {
+    @include button-link($color);
+  }
+  &:focus {
+    @include button-link($color);
+  }
+}
+
+@mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin) {
+  @include button-links($textcolor);
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  margin: $margin;
+  width: $width;
+  height: $height;
+  vertical-align: middle;
+  color: $textcolor;
+  background-color: $color;
+  border-radius: 5px;
+  font-size: $fontsize;
+  font-weight: lighter;
+}
+
+.blc-button {
+  @include button-template(white, $blc-main-color, 250px, 63px, 24px, 10px);
+}
+
+.blc-button-2 {
+  @include button-template($blc-main-color, white, 250px, 63px, 24px, 10px);
+  border-style: solid;
+  border-width: 1px;
+  border-color: $blc-main-color;
+}
+
+.blc-button-mid {
+  @include button-template(white, $blc-main-color, 200px, 50px, 18px, 0px);
+  margin-top: 50px;
+}
+
+.blc-button-mid-2 {
+  @include button-template($blc-main-color, white, 200px, 50px, 18px, 0px);
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $blc-main-color;
+}
+
+.blc-top-band {
+  color: $blc-main-text-color;
+  background-color: $blc-background-color;
+  height: $blc-top-band-height;
+  border-bottom-style: solid;
+  border-bottom-color: $blc-main-color;
+  border-bottom-width: 1px;
+}
+
+.blc-top-logo {
+  img {
+    margin: 18px;
+    height: 40px;
+  }
+}
+
+.blc-menu-group {
+  height: $blc-top-band-height;
+  vertical-align: bottom;
+  float: none;
+  display: table-cell;
+  a {
+    display: block;
+    float: left;
+    padding: 9px 20px 9px 20px;
+    &:link { color: $blc-main-text-color; text-decoration: none; }
+    &:visited { color: $blc-main-text-color; text-decoration: none; }
+    &:hover { color: black; text-decoration: none; }
+    &:focus { color: black; text-decoration: none; }
+  }
+}
+
+.blc-lang-pane {
+  display: block;
+  margin: 5px;
+  button {
+    background-color: $blc-background-color;
+  }
+}
+
+.blc-landing-title {
+  font-family: 'RobotoThin';
+  font-size: 50px;
+  color: $blc-main-text-color;
+}
+
+.blc-landing-title-coin {
+  font-family: 'Shrikhand';
+  font-size: 50px;
+  color: $blc-main-color;
+}
+
+.blc-landing-desc {
+  font-size: 30px;
+  font-weight: lighter;
+  color: $blc-main-text-color;
+}
+
+.blc-landing-pane {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.blc-landing-social-pane {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.blc-what-icon {
+  height: 35px;
+  margin-right: 20px;
+}
+
+.blc-what-pane {
+  h1 {
+    display: block;
+    padding-right: $blc-what-pane-padding;
+  }
+  p {
+    display: block;
+    padding-right: $blc-what-pane-padding;
+  }
+}
+
+.blc-history {
+  margin-left: 100px;
+  width: 550px;
+}
+
+.blc-basics-network {
+  width: 550px;
+}
+
+.blc-basics-params {
+  margin-top: 80px;
+}
+
+.blc-basics-param-row {
+  margin-bottom: 20px;
+  h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  img {
+    height: 23px;
+  }
+  p {
+    text-align: right;
+    padding-right: 20px;
+    background-color: $blc-background-color;
+  }
+}
+
+.blc-mining-step-row {
+  img {
+    padding-right: 110px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+.blc-mining-step-col {
+  padding-right: 110px;
+}
+
+.blc-download-req-row {
+  p {
+    font-size: 16px;
+  }
+  img {
+    height: 30px;
+    margin-right: 20px;
+  }
+}
+
+.blc-milestone-graph-col {
+  img {
+    width: 75%;
+  }
+}
+
+.blc-team-col {
+  img {
+    width: 100px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+
+.blc-team-head {
+  margin-left: 50px;
+  color: $blc-light-text-color;
+}
+
+.blc-footer {
+  background-color: $blc-footer-background-color;
+  p {
+    color: $blc-main-text-color;
+  }
+}
+
+  .blc-wechat-group {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
