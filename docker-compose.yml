@@ -11,6 +11,5 @@ services:
       - ./conf.d:/etc/nginx/conf.d
       - ./downloads:/downloads
 
-  www:
+  blc_www:
     build: ./
-    container_name: www
