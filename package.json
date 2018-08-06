@@ -8,7 +8,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "sass": "node_modules/sass/sass.js --watch src/balancecoin.scss:src/balancecoin.css",
+    "sass": "node_modules/sass/sass.js --watch public/balancecoin.scss:public/balancecoin.css",
+    "build-sass": "node_modules/sass/sass.js public/balancecoin.scss:public/balancecoin.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
