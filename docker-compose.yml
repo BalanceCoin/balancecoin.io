@@ -9,8 +9,5 @@ services:
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt
       - ./conf.d:/etc/nginx/conf.d
-      - ./static:/static
+      - ./build:/www
       - ./downloads:/downloads
-
-  blc_www:
-    build: ./
