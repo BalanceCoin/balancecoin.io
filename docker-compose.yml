@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+      - ./conf.d:/etc/nginx/conf.d
+      - ./downloads:/downloads
+
+  www:
+    build: ./
+    container_name: www
