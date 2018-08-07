@@ -1,8 +1,8 @@
 FROM nginx
 
 # Copying nginx configure.
-COPY conf.d/blc.conf /etc/nginx/conf.d/blc.conf
+COPY ../../conf.d/blc.conf /etc/nginx/conf.d/blc.conf
 
 # Copying download files.
-COPY ./downloads/* /downloads/
+COPY ../../downloads/* /downloads/
 
