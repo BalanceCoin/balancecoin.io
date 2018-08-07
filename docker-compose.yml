@@ -8,10 +8,10 @@ services:
     environment:
       - REPO_USER=mattxlee
       - REPO_PASS=3Cef774!
-    command: --interval 30 www
+    command: --interval 30 serve
 
-  frontend:
-    container_name: www
+  serve:
+    container_name: serve
     image: registry.cn-hongkong.aliyuncs.com/blc/balancecoin.io:release
     ports:
       - "0.0.0.0:80:80"
