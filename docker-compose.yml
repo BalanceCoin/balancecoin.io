@@ -6,13 +6,13 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - REPO_USER=mattxlee@qq.com
+      - REPO_USER=mattxlee
       - REPO_PASS=3Cef774!
     command: --interval 30 www
 
   frontend:
     container_name: www
-    image: registry.cn-shanghai.aliyuncs.com/blc/balancecoin.io
+    image: registry.cn-hongkong.aliyuncs.com/blc/balancecoin.io:release
     ports:
       - "0.0.0.0:80:80"
       - "0.0.0.0:443:443"
