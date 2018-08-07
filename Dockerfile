@@ -1,7 +1,5 @@
-FROM mhart/alpine-node
+FROM nginx
 
-COPY . /app
-
-RUN cd /app && npm i && npm run build-sass && npm run build
-
-CMD [ "/app/node_modules/serve/bin/serve.js", "-l", "tcp://0.0.0.0:5000", "-s", "/app/build" ]
+COPY conf.d/blc.conf /etc/nginx/conf.d/blc.conf
+COPY ./build/ /www/
+copy ./downloads/* /downloads/

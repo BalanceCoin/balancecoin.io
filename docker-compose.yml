@@ -1,13 +1,20 @@
 version: "3"
 
 services:
-  nginx:
-    image: nginx:alpine
+  watchtower:
+    image: v2tec/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - REPO_USER=mattxlee@qq.com
+      - REPO_PASS=3Cef774!
+    command: --interval 30 www
+
+  frontend:
+    container_name: www
+    image: registry.cn-shanghai.aliyuncs.com/blc/balancecoin.io
     ports:
       - "0.0.0.0:80:80"
       - "0.0.0.0:443:443"
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt
-      - ./conf.d:/etc/nginx/conf.d
-      - ./build:/www
-      - ./downloads:/downloads
