@@ -4,7 +4,7 @@ import langEn from './LangEn'
 import langCn from './LangCn'
 
 const initialState = {
-  ...langCn
+  ...langEn
 }
 
 export default (state = initialState, action) => {

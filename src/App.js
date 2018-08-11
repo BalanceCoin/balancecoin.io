@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import TopBanner from './TopBanner';
-import LandingPage from './LandingPage';
-import WhatisBLC from './WhatisBLC';
-import PoCHistory from './PoCHistory';
-import Basics from './Basics';
-import Mining from './Mining';
-import Download from './Download';
-import MileStone from './MileStone';
-import Team from './Team';
-import Footer from './Footer';
+import TopBanner from './TopBanner'
+import LandingPage from './LandingPage'
+import WhatisBLC from './WhatisBLC'
+import PoCHistory from './PoCHistory'
+import Basics from './Basics'
+import Mining from './Mining'
+import Download from './Download'
+import MileStone from './MileStone'
+import Team from './Team'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -26,8 +26,8 @@ class App extends Component {
         <Team />
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

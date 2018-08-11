@@ -57,7 +57,14 @@ p {
   }
 }
 
-@mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin) {
+@mixin button-template(
+  $textcolor,
+  $color,
+  $width,
+  $height,
+  $fontsize,
+  $margin
+) {
   @include button-links($textcolor);
   display: flex;
   float: left;
@@ -123,10 +130,22 @@ p {
     display: block;
     float: left;
     padding: 9px 20px 9px 20px;
-    &:link { color: $blc-main-text-color; text-decoration: none; }
-    &:visited { color: $blc-main-text-color; text-decoration: none; }
-    &:hover { color: black; text-decoration: none; }
-    &:focus { color: black; text-decoration: none; }
+    &:link {
+      color: $blc-main-text-color;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $blc-main-text-color;
+      text-decoration: none;
+    }
+    &:hover {
+      color: black;
+      text-decoration: none;
+    }
+    &:focus {
+      color: black;
+      text-decoration: none;
+    }
   }
 }
 
@@ -178,7 +197,7 @@ p {
 }
 
 .blc-what-pane {
-  h1 {
+  h2 {
     display: block;
     padding-right: $blc-what-pane-padding;
   }
@@ -266,9 +285,9 @@ p {
   }
 }
 
-  .blc-wechat-group {
-    img {
-      width: 100px;
-      height: 100px;
-    }
+.blc-wechat-group {
+  img {
+    width: 100px;
+    height: 100px;
   }
+}
