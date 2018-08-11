@@ -12,7 +12,7 @@ class MileStone extends Component {
             <p>{localText.desc}</p>
           </div>
           <div className="col-md-12 blc-milestone-graph-col">
-            <img src="images/milestone.png" alt="" />
+            <img src={localText.picurl} alt="" />
           </div>
         </div>
       </div>

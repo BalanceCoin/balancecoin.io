@@ -12,7 +12,7 @@ class PoCHistory extends Component {
             <p>{localText.desc}</p>
           </div>
           <div className="col-md-7">
-            <img src="images/poc-history.png" alt="" className="blc-history" />
+            <img src={localText.picurl} alt="" className="blc-history" />
           </div>
         </div>
       </div>

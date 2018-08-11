@@ -41,6 +41,7 @@ export default {
   },
   PoCHistory: {
     title: 'PoC 的历史',
+    picurl: 'image/poc-history.png',
     desc:
       '在比特币诞生两、三年后，人们逐渐承认了比特币的价值。而随着比特币价值逐步提高后，专有的 ASIC 矿机出现了，普通的非专业用户再也无法加入到挖矿的行列中来。此时区块链社区迫切的需要一种新的共识机制能够将 PoW 这种极度耗电的算法替代掉，让比特币重新回到大众的手中。'
   },
@@ -114,6 +115,7 @@ export default {
   },
   milestone: {
     title: '里程碑',
+    picurl: 'images/milestone.png',
     desc:
       'BalanceCoin 项目创始团队于 2017 年 1 月开始关注 PoC 共识机制，9 月份决定启动项目。在过去的一年间，团队在产品研发、生态构建、和社区运营方面努力开展工作，获得了一定的行业认可。以下为 BalanceCoin 的项目进展总结和未来计划，欢迎 BLC 信仰者群策群力，一起构建 BLC 生态！'
   },

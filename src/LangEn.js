@@ -41,6 +41,7 @@ export default {
   },
   PoCHistory: {
     title: 'History of PoC',
+    picurl: 'images/poc-history-en.png',
     desc:
       'Two to three years after the birth of Bitcoin, people gradually recognized its inherent value. With the gradual increase in the value of Bitcoin, proprietary ASIC mining machines have emerged, and ordinary, non-professional users can no longer join the mining oligopolies. At this point, the blockchain community urgently needs a new consensus mechanism to replace the energy-wasting algorithm of PoW and return Bitcoin to the people.'
   },
@@ -118,6 +119,7 @@ export default {
   },
   milestone: {
     title: 'Milestones',
+    picurl: 'images/milestone-en.png',
     desc:
       'BalanceCoin’s founding team began to study the POC Consensus in January 2017, and decided to launch the project in September.  Over the past year, the team has devoted a lot of energy to product development, ecosystem development, and community management, and has achieved remarkable industry recognition. The following is a summary of the project progress and future plan. We welcome all BLC believers to work together to build the BLC ecosystem!'
   },
@@ -140,13 +142,13 @@ export default {
       title: 'Adviser'
     },
     cicily: {
-      title: '周玺 Cicily',
+      title: 'Cicily',
       desc:
         'DaoVentures 创始人，投资银行背景，曾主导或参与多个区块链项目的上市全流程，包括白皮书撰写、市场材料准备、投融资等；<br /><br />出生于上海，早年赴美留学与工作，坚定地希望通过区块链技术可以创建一个真正去中心化的良性生态；<br /><br />本科毕业于美国康乃尔大学地产金融系；<br /><br />负责 BLC 的商务拓展、运营策略、项目融资等。',
       jobdesc: '负责 BLC 商务合作、运营策略、项目融资等'
     },
     terry: {
-      title: '唐立奇 Terry Tong',
+      title: 'Terry Tong',
       desc:
         '曾就职于 Groupon China 和 Oak Investment Partners，在互联网领域有丰富的产品研发和运营经验。擅长前端开发，并对区块链技术有深入的了解。热爱加密货币和区块链，坚信这将是改变人类社会的基石；<br /><br />本科毕业于香港科技大学计算机系并于美国麻省理工 Sloan 获得 MBA；<br /><br />负责 BLC 的国内社区运营以及产品的用户体验。',
       jobdesc: '技术负责人，BLC 早期代码贡献者'
@@ -164,7 +166,7 @@ export default {
       jobdesc: '加拿大社区运营经理'
     },
     james: {
-      title: '康俊超 James Kang',
+      title: 'James Kang',
       desc:
         '曾实习于国泰君安研究所新能源领域；<br /><br />参与多项项目研究并拥有丰富的研究经验，对区块链技术有着浓厚的兴趣；<br /><br />本科毕业于波士顿大学经济系辅修商业管理；<br /><br />负责协作 BLC 北美市场的社区管理（主要为美国）',
       jobdesc: '美国社区运营经理'
