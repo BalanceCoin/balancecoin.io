@@ -24,7 +24,7 @@ class TopBanner extends Component {
           <div className="col-md-2">
             <div className="btn-group pull-right">
               <div className="blc-lang-pane">
-                <span className="glyphicon glyphicon-globe" aria-hidden="true"></span><button type="button" className="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{ localText.currLang }<span className="caret"></span></button>
+                <span className="glyphicon glyphicon-globe" aria-hidden="true"></span><button type="button" className="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{ localText.currLang }&nbsp;<span className="caret"></span></button>
                 <ul className="dropdown-menu pull-right">
                   <li><a href="#english" onClick={ () => this.props.switchLang('EN') }>English</a></li>
                   <li><a href="#chinese" onClick={ () => this.props.switchLang('CN') }>中文</a></li>
