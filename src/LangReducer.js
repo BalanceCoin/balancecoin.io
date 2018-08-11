@@ -1,7 +1,7 @@
 import { LangAction } from './LangConst'
 
-import { langEn } from './LangEn'
-import { langCn } from './LangCn'
+import langEn from './LangEn'
+import langCn from './LangCn'
 
 const initialState = {
   ...langCn

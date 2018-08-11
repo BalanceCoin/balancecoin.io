@@ -1,4 +1,4 @@
-export const langCn = {
+export default {
   topBanner: {
     currLang: "中文",
     menu: {
