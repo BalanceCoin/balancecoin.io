@@ -136,7 +136,7 @@ export default {
       title: 'Founder'
     },
     socialOperation: {
-      title: 'Social management'
+      title: 'Community management'
     },
     adviser: {
       title: 'Adviser'
