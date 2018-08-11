@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
 class LandingPage extends Component {
   render() {
+    const localText = this.props.lang.landingPage;
     return (
       <div id="home" className="container blc-page">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center blc-landing-pane">
             <p><span className="blc-landing-title">BALANCE</span>&nbsp;<span className="blc-landing-title-coin">coin</span></p>
-            <p className="blc-landing-desc">致力于打造世界上第一款绿色节能<br />且人人都能参与的 bitcoin 数字货币</p>
+            <p className="blc-landing-desc">{ localText.desc1 }<br />{ localText.desc2 }</p>
           </div>
         </div>
         <div className="row">
@@ -20,13 +22,20 @@ class LandingPage extends Component {
         </div>
         <div className="row">
           <div className="col-md-6 col-md-offset-3">
-            <a href="#download" className="blc-button">下载钱包</a>
-            <a href="#download" className="blc-button-2">下载挖矿程序</a>
+            <a href="#download" className="blc-button">{ localText.downloadWalletBtn }</a>
+            <a href="#download" className="blc-button-2">{ localText.downloadMinerBtn }</a>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default LandingPage;
+const mapStateToProps = state => {
+  const { lang } = state;
+  return {
+    lang
+  }
+}
+
+export default connect(mapStateToProps)(LandingPage)
