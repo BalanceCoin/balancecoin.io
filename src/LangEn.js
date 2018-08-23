@@ -150,8 +150,8 @@ export default {
     terry: {
       title: 'Terry Tong',
       desc:
-        '曾就职于 Groupon China 和 Oak Investment Partners，在互联网领域有丰富的产品研发和运营经验。擅长前端开发，并对区块链技术有深入的了解。热爱加密货币和区块链，坚信这将是改变人类社会的基石；<br /><br />本科毕业于香港科技大学计算机系并于美国麻省理工 Sloan 获得 MBA；<br /><br />负责 BLC 的国内社区运营以及产品的用户体验。',
-      jobdesc: 'Main programmer, main contributor'
+        `Terry’s background is mainly in IT, Internet and programming. He studied computer science in his undergrad at HKUST and has received his MBA from MIT Sloan. He is currently an entrepreneur working in the manufacturing sector. His business is to build software for the manufacturing companies in China. His firm also helps them sell products to overseas markets. On the side, I also run an offline singles event called Sparkle, helping top school alums connect with each other.<br />Terry has done extensive research into blockchain and cryptocurrencies, especially Bitcoin-its history and people behind it. He is fascinated by the "greatest invention since the Internet" and believes that's the direction we are all going in the future.<br />His talents in the crypto world lie with writing and understanding technical literature, making decisions on viable technologies, and building a strong industry network through his experiences connecting people.`,
+      jobdesc: 'Main programmer, main code contributor'
     },
     roald: {
       title: 'Roald Munoz',
