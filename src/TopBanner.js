@@ -11,7 +11,7 @@ class TopBanner extends Component {
           <div className="col-md-2 blc-top-logo">
             <img src="images/top-logo.png" alt="" />
           </div>
-          <div className="col-md-4 col-md-offset-4">
+          <div className="col-md-6 col-md-offset-2">
             <div className="blc-menu-group">
               <a href="#home">{localText.menu.home}</a>
               <a href="#whatisblc">{localText.menu.whatisblc}</a>
