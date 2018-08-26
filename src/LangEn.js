@@ -133,25 +133,25 @@ export default {
     desc4:
       'With support from such a nurturing and diverse community , we believe we can build an energy-efficient, easy-to-use, fair, and decentralized blockchain ecosystem for the world.',
     founders: {
-      title: 'Founder'
+      title: 'Project Initiators'
     },
     socialOperation: {
-      title: 'Community management'
+      title: 'Community Managers'
     },
     adviser: {
-      title: 'Adviser'
+      title: 'Advisors'
     },
     cicily: {
       title: 'Cicily',
       desc:
         'Co-founder of DaoVentures, investment banking background, ICO Advisor for several leading blockchain projects including ParcelX, DropChain, Robin8, InsChain, and Metaverse;<br />Born in Shanghai, attended university in the USA returned to China in 2014;<br />A strong believer in creating a decentralized ecosystem using blockchain technology;<br />Previous experience includes E&Y, PGC Capital, and Meixin Finance;<br />B. A in Business Administration from Cornel University, USA.',
-      jobdesc: 'In charge of business development, operations strategy and fundraising for BLC.'
+      jobdesc: 'In charge of business development, operations strategy and fundraising.'
     },
     terry: {
-      title: 'Terry Tong',
+      title: 'Terry Tang',
       desc:
         `Terry’s background is mainly in IT, Internet and programming. He studied computer science in his undergrad at HKUST and has received his MBA from MIT Sloan. He is currently an entrepreneur working in the manufacturing sector. His business is to build software for the manufacturing companies in China. His firm also helps them sell products to overseas markets. On the side, I also run an offline singles event called Sparkle, helping top school alums connect with each other.<br />Terry has done extensive research into blockchain and cryptocurrencies, especially Bitcoin-its history and people behind it. He is fascinated by the "greatest invention since the Internet" and believes that's the direction we are all going in the future.<br />His talents in the crypto world lie with writing and understanding technical literature, making decisions on viable technologies, and building a strong industry network through his experiences connecting people.`,
-      jobdesc: 'Main programmer, main code contributor'
+      jobdesc: 'Main code contributor for BLC, in charge of technology development, user experience.'
     },
     roald: {
       title: 'Roald Munoz',
@@ -175,31 +175,31 @@ export default {
       title: 'Audrey Chen',
       desc:
         'Product manager and growth hacker at Stroll Health & Thumbstack, a well-known startup in Silicon Valley;<br />Passionate about impact investment and social enterprises, focusing on food and health care industry;<br />B. A. from Carleton, founded Calhacks, a hackathon community in the U.S.;',
-      jobdesc: 'In charge of community management for China at BlC.'
+      jobdesc: 'In charge of community management for China.'
     },
     czf: {
       title: 'Chen.zefeng',
       desc:
         'An entrepreneur in internet startups with 12 years of internet work experience;<br />Learned about bitcoin in 2012, an early adopter for bitcoin mining, familiar with blockchain terminology with rich experience and interests in blockchain;<br />Deep understanding of computer hardware technology development and self-learner of computer programming;',
-      jobdesc: 'In charge of community management for China at BlC.'
+      jobdesc: 'In charge of community management for China.'
     },
     billy: {
       title: 'Billy Chan',
       desc:
         'Billy is a veteran of the IT industry, with over 15 years of software development, consulting, and sales experience in digital technology. Most recently he led the software antipiracy efforts for Microsoft in Eastern China;<br />He has been passionate about Blockchain since 2015 and is excited about leveraging it to reinvent the food and beverage distribution industry. He founded DropChain, a blockchain startup in supply chain;<br />Born in Canada, and went to Shanghai to live and work in 2014',
-      jobdesc: 'Technical advisor'
+      jobdesc: 'Technical Advisor'
     },
     victor: {
       title: 'Victor Lee',
       desc:
         'Victor is an expert in digital marketing, an ex- director in Omnicom Media Group China focused on media advertising, mobile strategies and brand innovation;<br />Passionate about digital disruption, blockchain & cryptocurrency startups. Experienced startup founder and mentor to several early stage startups;<br />Born in Malaysia, and went to Shanghai to live and work in 2014.',
-      jobdesc: 'Marketing advisor'
+      jobdesc: 'Digital Marketing Advisor'
     },
     sioksiok: {
       title: 'Sioksiok Tan',
       desc:
-        'Sioksiok 是一位资深记录片导演，曾担任 Discovery Asia 的监制，同时也是 Kinetic ONE 的创始人，一家拍摄年轻人、时尚和生活方式为主题的短视频平台，旗下拥有牛人库、优范儿、美丽极客三大独立频道；<br /><br />对区块链创业公司充满兴趣，并为 5 家以上的区块链创业公司成功制作视频并进行多渠道推广；<br /><br />出生于新加坡，于 2012 年移居北京生活及工作，经常往返于上海与北京两地。',
-      jobdesc: 'Strategic consultant'
+        'Tan Siok Siok is a filmmaker, entrepreneur and a honorary geek with a deep passion for great storytelling in the age of real time web.<br />The CEO at Kinetic ONE, a social video platform in China with channels focused on youth culture, fashion and lifestyle as well as parenting&pregnancy. Previously worked as an executive producer for Discovery Channel in Asia,. The shows she produced have clinched more than a dozen awards and nominations at the Asian TV awards and the Golden Bell Awards;<br />Mentor for a few blockchain startups and has made videos for more than five blockchain startups;</br >B.A. (Honors) in Comparative Literature from Brown University, USA.<br />Born in Singapore, and went to Beijing to live and work since 2012.',
+      jobdesc: 'Strategic Advisor'
     }
   },
   contactus: {
