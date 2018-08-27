@@ -76,7 +76,7 @@ class Team extends Component {
             </h2>
 
             <div className="row blc-block">
-              <div className="col-md-3 col-md-offset-1 text-center blc-team-col">
+              <div className="col-md-3 text-center blc-team-col">
                 <div className="row">
                   <img src="images/roald.png" alt="" />
                 </div>
@@ -147,10 +147,8 @@ class Team extends Component {
                   </h2>
                 </div>
               </div>
-            </div>
 
-            <div className="row">
-              <div className="col-md-3 col-md-offset-2 text-center blc-team-col">
+              <div className="col-md-3 text-center blc-team-col">
                 <div className="row">
                   <img src="images/audrey.png" alt="" />
                 </div>
@@ -170,30 +168,6 @@ class Team extends Component {
                     </a>
                     <br />
                     <small>{localText.audrey.jobdesc}</small>
-                  </h2>
-                </div>
-              </div>
-
-              <div className="col-md-3 col-md-offset-1 text-center blc-team-col">
-                <div className="row">
-                  <img src="images/member-czf.png" alt="" />
-                </div>
-                <div className="row">
-                  <h2>
-                    {localText.czf.title}
-                    <a
-                      tabIndex="0"
-                      className="btn btn-sx blc-team-detail"
-                      role="button"
-                      data-toggle="popover"
-                      data-trigger="focus"
-                      title="Audrey Chen"
-                      data-content={localText.czf.desc}
-                    >
-                      <span className="glyphicon glyphicon-info-sign" />
-                    </a>
-                    <br />
-                    <small>{localText.czf.jobdesc}</small>
                   </h2>
                 </div>
               </div>
