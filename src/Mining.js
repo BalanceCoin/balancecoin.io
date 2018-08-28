@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 
 class Mining extends Component {
   render() {
+    const domainName = 'https://download.balancecoin.io'
     const localText = this.props.lang.mining
     return (
       <div id="mining" className="container blc-page">
@@ -13,7 +14,7 @@ class Mining extends Component {
             <p>
               <a
                 download="HowToMine-cn.pdf"
-                href="downloads/HowToMine-cn.pdf"
+                href={ domainName + "/HowToMine-cn.pdf" }
                 className="blc-button-mid-2"
               >
                 <span className="glyphicon glyphicon-question-sign" />
