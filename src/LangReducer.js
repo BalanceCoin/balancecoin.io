@@ -10,17 +10,18 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case LangAction.SWITCH_LANGUAGE:
-      if (action.toLang == 'CN') {
+      if (action.toLang === 'CN') {
         return {
           ...state,
           ...langCn
         }
-      } else if (action.toLang == 'EN') {
+      } else if (action.toLang === 'EN') {
         return {
           ...state,
           ...langEn
         }
       }
+      break
     default:
       return state
   }
