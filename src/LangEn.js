@@ -207,5 +207,13 @@ export default {
     wechat: {
       title: 'Join our Wechat group.'
     }
+  },
+  footer: {
+    utilities: {
+      title: 'Utilities',
+      explorer: 'Block-chain Explorer',
+      wallet: 'Online Wallet',
+      pool: 'Mining Pool'
+    }
   }
 }

@@ -203,5 +203,13 @@ export default {
     wechat: {
       title: '微信矿工互助群'
     }
+  },
+  footer: {
+    utilities: {
+      title: '工具',
+      explorer: '区块浏览器',
+      wallet: '在线钱包',
+      pool: '矿池'
+    }
   }
 }

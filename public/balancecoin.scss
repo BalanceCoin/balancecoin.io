@@ -1,5 +1,5 @@
-@import 'colors';
-@import 'fonts';
+@import "colors";
+@import "fonts";
 
 $blc-top-band-height: 80px;
 $blc-what-pane-padding: 60px;
@@ -46,26 +46,23 @@ p {
   &:hover {
     @include button-link($color);
   }
+
   &:active {
     @include button-link($color);
   }
+
   &:visited {
     @include button-link($color);
   }
+
   &:focus {
     @include button-link($color);
   }
 }
 
-@mixin button-template(
-  $textcolor,
-  $color,
-  $width,
-  $height,
-  $fontsize,
-  $margin
-) {
+@mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin) {
   @include button-links($textcolor);
+
   display: flex;
   float: left;
   align-items: center;
@@ -87,6 +84,7 @@ p {
 
 .blc-button-2 {
   @include button-template($blc-main-color, white, 250px, 63px, 24px, 10px);
+
   border-style: solid;
   border-width: 1px;
   border-color: $blc-main-color;
@@ -94,11 +92,13 @@ p {
 
 .blc-button-mid {
   @include button-template(white, $blc-main-color, 200px, 50px, 18px, 0px);
+
   margin-top: 50px;
 }
 
 .blc-button-mid-2 {
   @include button-template($blc-main-color, white, 200px, 50px, 18px, 0px);
+
   margin-top: 50px;
   border-style: solid;
   border-width: 1px;
@@ -121,27 +121,27 @@ p {
   }
 }
 
-.blc-menu-group {
-  height: $blc-top-band-height;
-  vertical-align: bottom;
-  float: none;
-  display: table-cell;
+@mixin link-styles($disp, $flo, $pads) {
   a {
-    display: block;
-    float: left;
-    padding: 9px 20px 9px 20px;
+    display: $disp;
+    float: $flo;
+    padding: $pads;
+
     &:link {
       color: $blc-main-text-color;
       text-decoration: none;
     }
+
     &:visited {
       color: $blc-main-text-color;
       text-decoration: none;
     }
+
     &:hover {
       color: black;
       text-decoration: none;
     }
+
     &:focus {
       color: black;
       text-decoration: none;
@@ -149,9 +149,19 @@ p {
   }
 }
 
+.blc-menu-group {
+  height: $blc-top-band-height;
+  vertical-align: bottom;
+  float: none;
+  display: table-cell;
+
+  @include link-styles(block, left, 9px 20px 9px 20px);
+}
+
 .blc-lang-pane {
   display: block;
   margin: 5px;
+
   button {
     background-color: $blc-background-color;
   }
@@ -183,6 +193,7 @@ p {
 .blc-landing-social-pane {
   margin-top: 50px;
   margin-bottom: 50px;
+
   img {
     width: 40px;
     height: 40px;
@@ -201,6 +212,7 @@ p {
     display: block;
     padding-right: $blc-what-pane-padding;
   }
+
   p {
     display: block;
     padding-right: $blc-what-pane-padding;
@@ -222,13 +234,16 @@ p {
 
 .blc-basics-param-row {
   margin-bottom: 20px;
+
   h2 {
     margin: 0;
     font-size: 20px;
   }
+
   img {
     height: 23px;
   }
+
   p {
     text-align: right;
     padding-right: 20px;
@@ -252,6 +267,7 @@ p {
   p {
     font-size: 16px;
   }
+
   img {
     height: 30px;
     margin-right: 20px;
@@ -268,6 +284,7 @@ p {
   img {
     width: 100px;
   }
+
   h2 {
     font-size: 22px;
   }
@@ -279,9 +296,40 @@ p {
 }
 
 .blc-footer {
-  background-color: $blc-footer-background-color;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $blc-main-color;
+
   p {
-    color: $blc-main-text-color;
+    color: $blc-dark-text-color;
+  }
+
+  .blc-social-icon-footer {
+    width: 28px;
+    height: 28px;
+    margin: 5px;
+  }
+
+  .blc-footer-logo {
+    margin-top: 10px;
+    width: 160px;
+  }
+
+  .blc-copy-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    @include link-styles(block, clear, 0 0 0 0);
+
+    padding: 0;
+  }
+
+  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
   }
 }
 
