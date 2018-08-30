@@ -10,6 +10,7 @@ import Download from './Download'
 import MileStone from './MileStone'
 import Team from './Team'
 import Footer from './Footer'
+import './balancecoin.scss'
 
 class App extends Component {
   render() {
