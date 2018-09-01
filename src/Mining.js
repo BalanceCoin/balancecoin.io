@@ -2,26 +2,45 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 class Mining extends Component {
+  getUpgradeGuideButton() {
+    const localText = this.props.lang.mining
+    if (typeof localText.upgradeGuide !== 'undefined') {
+      const { buttonText, target } = localText.upgradeGuide
+      return (
+        <a href={target} className="blc-button-mid-2">
+          <span className="glyphicon glyphicon-question-sign" />
+          &nbsp;
+          {buttonText}
+        </a>
+      )
+    }
+    return <span />
+  }
+
   render() {
     const domainName = 'https://download.balancecoin.io'
     const localText = this.props.lang.mining
+    const upgradeGuideButton = this.getUpgradeGuideButton()
     return (
       <div id="mining" className="container blc-page">
         <div className="row blc-block">
-          <div className="col-md-12">
+          <div className="col-md-10">
             <h1>{localText.title}</h1>
             <p>{localText.desc}</p>
-            <p>
-              <a
-                download="HowToMine-cn.pdf"
-                href={ domainName + "/HowToMine-cn.pdf" }
-                className="blc-button-mid-2"
-              >
-                <span className="glyphicon glyphicon-question-sign" />
-                &nbsp;
-                {localText.downloadMiningGuide}
-              </a>
-            </p>
+            <div className="row">
+              <div className="col-md-3">
+                <a
+                  download="HowToMine-cn.pdf"
+                  href={domainName + '/HowToMine-cn.pdf'}
+                  className="blc-button-mid"
+                >
+                  <span className="glyphicon glyphicon-question-sign" />
+                  &nbsp;
+                  {localText.downloadMiningGuide}
+                </a>
+              </div>
+              <div className="col-md-3">{upgradeGuideButton}</div>
+            </div>
           </div>
         </div>
         <div className="row blc-mining-step-row">
