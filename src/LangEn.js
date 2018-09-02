@@ -204,8 +204,16 @@ export default {
   },
   contactus: {
     title: 'Contact Us',
-    wechat: {
-      title: 'Join our Wechat group.'
+    desc: {
+      brief: 'BalanceCoin is an open-source blockchain community.',
+      welcomejoin:
+        'We continue to push BalanceCoin forward and you are welcome to join us any time.'
+    },
+    tech: {
+      title: 'Technical Support',
+      mtitle: 'Email: ',
+      l1: 'If you have any question please contact us,',
+      l2: 'Let us build BalanceCoin community together and let more people know and use BalanceCoin.'
     }
   },
   footer: {

@@ -17,7 +17,7 @@ class Footer extends Component {
     const localText = this.props.lang.topBanner
     const footerText = this.props.lang.footer
     return (
-      <div id="contact" className="container-fluid blc-footer">
+      <div id="footer" className="container-fluid blc-footer">
         <div className="container">
           <div className="row">
             <div className="col-md-6">

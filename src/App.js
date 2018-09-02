@@ -9,6 +9,7 @@ import Mining from './Mining'
 import Download from './Download'
 import MileStone from './MileStone'
 import Team from './Team'
+import ContactUs from './ContactUs'
 import Footer from './Footer'
 import './balancecoin.scss'
 
@@ -25,6 +26,7 @@ class App extends Component {
         <Download />
         <MileStone />
         <Team />
+        <ContactUs />
         <Footer />
       </div>
     )

@@ -76,7 +76,8 @@ export default {
     downloadMiningGuide: '挖矿教程',
     upgradeGuide: {
       buttonText: '如何从 EBTC 升级',
-      target: 'https://github.com/BalanceCoin/Docs/blob/master/How-To-Upgrade-From-EBTC.md'
+      target:
+        'https://github.com/BalanceCoin/Docs/blob/master/How-To-Upgrade-From-EBTC.md'
     },
     step1: {
       title: '第一步：下载钱包',
@@ -204,8 +205,28 @@ export default {
   },
   contactus: {
     title: '联系我们',
+    desc: {
+      brief: 'BalanceCoin 是一个开源的区块链社区。',
+      welcomejoin:
+        '我们是一个不断推进 BalanceCoin 的团队，并且随时欢迎你的加入。'
+    },
+    tech: {
+      title: '技术支持',
+      mtitle: '联系邮箱：',
+      l1: '若你在使用 BalanceCoin 的过程中遇到了问题，请及时联系我们，',
+      l2: '让我们一起来建设 BalanceCoin 的社区，让更多的人知道并使用它。'
+    },
     wechat: {
-      title: '微信矿工互助群'
+      title: '微信群',
+      mtitle: '入群邮箱：',
+      part1: [
+        '欢迎加入我们的微信群，请将你的微信id通过邮件的方式发送给我们，',
+        '我们会把你加入到微信的群里。'
+      ],
+      part2: [
+        '微信群中除了 BalanceCoin 及区块链相关的话题外，其它的话题都是禁止讨论的，',
+        '社区维护靠大家的努力。'
+      ]
     }
   },
   footer: {
