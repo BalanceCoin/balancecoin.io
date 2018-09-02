@@ -2,9 +2,25 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 class Download extends Component {
+  getUpgradeGuideButton() {
+    const localText = this.props.lang.download
+    if (typeof localText.upgradeGuide !== 'undefined') {
+      const { buttonText, target } = localText.upgradeGuide
+      return (
+        <a href={target} className="blc-button-mid-2">
+          <span className="glyphicon glyphicon-question-sign" />
+          &nbsp;
+          {buttonText}
+        </a>
+      )
+    }
+    return null
+  }
+
   render() {
     const domainName = 'https://download.balancecoin.io'
     const localText = this.props.lang.download
+    const upgradeGuideButton = this.getUpgradeGuideButton()
     return (
       <div id="download" className="container-fluid blc-dark-page">
         <div className="container">
@@ -12,6 +28,7 @@ class Download extends Component {
             <div className="col-md-12">
               <h1>{localText.title}</h1>
               <p>{localText.desc}</p>
+              <p>{upgradeGuideButton}</p>
             </div>
           </div>
           <div className="row blc-download-req-row">

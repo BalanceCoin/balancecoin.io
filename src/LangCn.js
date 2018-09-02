@@ -74,11 +74,6 @@ export default {
     title: '挖矿',
     desc: '简单三个步骤进入低功耗挖矿时代，获得电子货币。',
     downloadMiningGuide: '挖矿教程',
-    upgradeGuide: {
-      buttonText: '如何从 EBTC 升级',
-      target:
-        'https://github.com/BalanceCoin/Docs/blob/master/How-To-Upgrade-From-EBTC.md'
-    },
     step1: {
       title: '第一步：下载钱包',
       desc: '下载全节点钱包，然后将账本数据通过 P2P 网络同步到本地'
@@ -95,6 +90,11 @@ export default {
   download: {
     title: '下载',
     desc: '不管你是普通用户还是矿工，全节点钱包程序都是必须的。',
+    upgradeGuide: {
+      buttonText: '如何从 EBTC 升级',
+      target:
+        'https://github.com/BalanceCoin/Docs/blob/master/How-To-Upgrade-From-EBTC.md'
+    },
     windows: {
       req: {
         title: 'Windows 系统需求',
