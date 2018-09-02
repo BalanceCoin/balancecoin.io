@@ -54,7 +54,7 @@ class Download extends Component {
                 <div className="col-md-5">
                   <a
                     download="win-blc-wallet.zip"
-                    href={ domainName + "/win-blc-wallet.zip" }
+                    href={domainName + '/win-blc-wallet.zip'}
                     className="blc-button-mid"
                   >
                     {localText.windows.downloadWallet}
@@ -63,7 +63,7 @@ class Download extends Component {
                 <div className="col-md-5">
                   <a
                     download="win-blc-mining-tools.zip"
-                    href={ domainName + "/win-blc-mining-tools.zip" }
+                    href={domainName + '/win-blc-mining-tools.zip'}
                     className="blc-button-mid-2"
                   >
                     {localText.windows.downloadMiningTools}
@@ -93,7 +93,7 @@ class Download extends Component {
                 <div className="col-md-5">
                   <a
                     download="mac-blc-wallet.dmg"
-                    href={ domainName + "/mac-blc-wallet.dmg" }
+                    href={domainName + '/mac-blc-wallet.dmg'}
                     className="blc-button-mid"
                   >
                     {localText.macos.downloadWallet}
@@ -102,7 +102,7 @@ class Download extends Component {
                 <div className="col-md-5">
                   <a
                     download="mac-blc-mining-tools.zip"
-                    href={ domainName + "/mac-blc-mining-tools.zip" }
+                    href={domainName + '/mac-blc-mining-tools.zip'}
                     className="blc-button-mid-2"
                   >
                     {localText.macos.downloadMiningTools}
