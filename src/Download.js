@@ -57,6 +57,8 @@ class Download extends Component {
                     href={domainName + '/win-blc-wallet.zip'}
                     className="blc-button-mid"
                   >
+                    <span class="glyphicon glyphicon-download-alt" />
+                    &nbsp;&nbsp;
                     {localText.windows.downloadWallet}
                   </a>
                 </div>
@@ -66,6 +68,8 @@ class Download extends Component {
                     href={domainName + '/win-blc-mining-tools.zip'}
                     className="blc-button-mid-2"
                   >
+                    <span class="glyphicon glyphicon glyphicon-hdd" />
+                    &nbsp;&nbsp;
                     {localText.windows.downloadMiningTools}
                   </a>
                 </div>
@@ -96,6 +100,8 @@ class Download extends Component {
                     href={domainName + '/mac-blc-wallet.dmg'}
                     className="blc-button-mid"
                   >
+                    <span class="glyphicon glyphicon-download-alt" />
+                    &nbsp;&nbsp;
                     {localText.macos.downloadWallet}
                   </a>
                 </div>
@@ -105,6 +111,8 @@ class Download extends Component {
                     href={domainName + '/mac-blc-mining-tools.zip'}
                     className="blc-button-mid-2"
                   >
+                    <span class="glyphicon glyphicon glyphicon-hdd" />
+                    &nbsp;&nbsp;
                     {localText.macos.downloadMiningTools}
                   </a>
                 </div>

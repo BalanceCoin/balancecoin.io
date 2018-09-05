@@ -103,7 +103,7 @@ export default {
         req4: 'Monitor with at least 1024*768 resolution'
       },
       downloadWallet: 'Download Wallet',
-      downloadMiningTools: 'Download Mining Tools'
+      downloadMiningTools: 'Mining Tools'
     },
     macos: {
       req: {
@@ -114,7 +114,7 @@ export default {
         req4: 'Monitor with at least 1024*768'
       },
       downloadWallet: 'Download Wallet',
-      downloadMiningTools: 'Download Mining Tools'
+      downloadMiningTools: 'Mining Tools'
     }
   },
   milestone: {

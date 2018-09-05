@@ -63,27 +63,35 @@ p {
 @mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin) {
   @include button-links($textcolor);
 
-  display: flex;
   float: left;
-  align-items: center;
-  justify-content: center;
   margin: $margin;
   width: $width;
   height: $height;
-  vertical-align: middle;
   color: $textcolor;
-  background-color: $color;
   border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color;
+  background-color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'RobotoThin';
   font-size: $fontsize;
-  font-weight: lighter;
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
 .blc-button {
-  @include button-template(white, $blc-main-color, 250px, 63px, 24px, 10px);
+  @include button-template(white, $blc-main-color, 250px, 63px, 20px, 10px);
 }
 
 .blc-button-2 {
-  @include button-template($blc-main-color, white, 250px, 63px, 24px, 10px);
+  @include button-template($blc-main-color, white, 250px, 63px, 20px, 10px);
 
   border-style: solid;
   border-width: 1px;
@@ -91,13 +99,13 @@ p {
 }
 
 .blc-button-mid {
-  @include button-template(white, $blc-main-color, 200px, 50px, 18px, 0px);
+  @include button-template(white, $blc-main-color, 200px, 50px, 16px, 0);
 
   margin-top: 50px;
 }
 
 .blc-button-mid-2 {
-  @include button-template($blc-main-color, white, 200px, 50px, 18px, 0px);
+  @include button-template($blc-main-color, white, 200px, 50px, 16px, 0);
 
   margin-top: 50px;
   border-style: solid;
