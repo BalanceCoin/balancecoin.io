@@ -3,8 +3,9 @@ export default {
     currLang: '中文',
     menu: {
       home: '主页',
-      whatisblc: '关于',
+      whatisblc: 'BalanceCoin',
       mining: '挖矿',
+      download: '下载',
       milestone: '里程碑',
       team: '团队',
       contact: '联系我们'

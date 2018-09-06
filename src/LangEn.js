@@ -3,8 +3,9 @@ export default {
     currLang: 'English',
     menu: {
       home: 'Home',
-      whatisblc: 'About',
+      whatisblc: 'BalanceCoin',
       mining: 'Mining',
+      download: 'Download',
       milestone: 'Milestone',
       team: 'Team',
       contact: 'Contact us'

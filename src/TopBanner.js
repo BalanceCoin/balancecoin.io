@@ -9,16 +9,35 @@ class TopBanner extends Component {
       <div className="container-fluid">
         <div className="row blc-top-band navbar-fixed-top">
           <div className="col-md-2 blc-top-logo">
-            <img src="images/top-logo.png" alt="" />
+            <a href="#home"><img src="images/top-logo.png" alt="" /></a>
           </div>
-          <div className="col-md-6 col-md-offset-2">
+          <div className="col-md-9 col-md-offset-1">
             <div className="blc-menu-group">
-              <a href="#home">{localText.menu.home}</a>
-              <a href="#whatisblc">{localText.menu.whatisblc}</a>
-              <a href="#mining">{localText.menu.mining}</a>
-              <a href="#milestone">{localText.menu.milestone}</a>
-              <a href="#team">{localText.menu.team}</a>
-              <a href="#contact">{localText.menu.contact}</a>
+              <a href="#whatisblc">
+                <span className="glyphicon glyphicon-triangle-right" />
+                &nbsp;&nbsp;
+                {localText.menu.whatisblc}
+              </a>
+              <a href="#mining">
+                <span className="glyphicon glyphicon-triangle-right" />
+                &nbsp;&nbsp;
+                {localText.menu.mining}
+              </a>
+              <a href="#milestone">
+                <span className="glyphicon glyphicon-triangle-right" />
+                &nbsp;&nbsp;
+                {localText.menu.milestone}
+              </a>
+              <a href="#team">
+                <span className="glyphicon glyphicon-triangle-right" />
+                &nbsp;&nbsp;
+                {localText.menu.team}
+              </a>
+              <a href="#contact">
+                <span className="glyphicon glyphicon-triangle-right" />
+                &nbsp;&nbsp;
+                {localText.menu.contact}
+              </a>
             </div>
           </div>
           <div className="col-md-2">

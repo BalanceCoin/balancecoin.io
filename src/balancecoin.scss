@@ -114,11 +114,13 @@ p {
 }
 
 .blc-top-band {
+  display: flex;
+  align-items: center;
   color: $blc-main-text-color;
   background-color: $blc-background-color;
   height: $blc-top-band-height;
   border-bottom-style: solid;
-  border-bottom-color: $blc-main-color;
+  border-bottom-color: $blc-light-green;
   border-bottom-width: 1px;
 }
 
@@ -131,9 +133,15 @@ p {
 
 @mixin link-styles($disp, $flo, $pads) {
   a {
+    font-size: 14px;
     display: $disp;
     float: $flo;
-    padding: $pads;
+    margin: $pads;
+    padding: 5px 10px 5px 10px;
+    transition: border 0.3s;
+    span {
+      transition: color 0.3s;
+    }
 
     &:link {
       color: $blc-main-text-color;
@@ -148,6 +156,9 @@ p {
     &:hover {
       color: black;
       text-decoration: none;
+      span {
+        color: $blc-main-color;
+      }
     }
 
     &:focus {
@@ -159,9 +170,13 @@ p {
 
 .blc-menu-group {
   height: $blc-top-band-height;
-  vertical-align: bottom;
+  align-items: center;
   float: none;
-  display: table-cell;
+  display: flex;
+
+  span {
+    color: $blc-background-color;
+  }
 
   @include link-styles(block, left, 9px 20px 9px 20px);
 }
