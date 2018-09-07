@@ -15,39 +15,39 @@ export default {
     desc1: "BalanceCoin aims to create the world's first bitcoin",
     desc2: 'digital currency that is green, energy efficient and',
     desc3: 'accessible to everyone.',
-    downloadWalletBtn: 'Download Wallet',
-    downloadMinerBtn: 'Mining Tools'
+    downloadWalletBtn: 'Download wallet',
+    downloadMinerBtn: 'Mining tools'
   },
   whatIsBLC: {
-    title: 'What is BalanceCoin?',
+    title: 'WHAT IS BALANCECOIN?',
     desc1:
       "BalanceCoin, known as BLC, is an energy-efficient, easy-to-use, fair, and decentralized encrypted digital currency based on a new consensus. It is also the world's first bitcoin fork that is based on the PoC (Proof Of Capacity) consensus mechanism.",
     desc2:
       'The name BalanceCoin was created to illustrate that the POC consensus is a combination of the advantages of POW and POS - it retains the elements of mining, ensures safety and fairness, and doesn’t consume large amounts of resources. We also firmly believe that the universe needs to achieve balance in order for all things to grow and prosper, just like our hope to build the BLC ecosystem.',
     spot1: {
-      title: 'Green and Efficient',
+      title: 'GREEN AND EFFICIENT',
       desc:
         'Using the PoC Consensus, BLC no longer needs to consume an enormous amount of expensive electricity, because computing power is redefined as capacity rather than computing speed.'
     },
     spot2: {
-      title: 'Fair and Just',
+      title: 'FAIR AND JUST',
       desc:
         'Because they are no longer limited by energy constraints, anyone can participate in the mining process and be compensated proportionally.'
     },
     spot3: {
-      title: 'Secure and Stable',
+      title: 'SECURE AND STABLE',
       desc:
         'The decentralized nodes are distributed all over the world, and the POC Consensus itself is anti-ASIC. Therefore, the BLC network cannot be monopolized by computing power, and its security is guaranteed.'
     }
   },
   PoCHistory: {
-    title: 'History of PoC',
+    title: 'HISTORY OF POC',
     picurl: 'images/poc-history-en.png',
     desc:
       'Two to three years after the birth of Bitcoin, people gradually recognized its inherent value. With the gradual increase in the value of Bitcoin, proprietary ASIC mining machines have emerged, and ordinary, non-professional users can no longer join the mining oligopolies. At this point, the blockchain community urgently needs a new consensus mechanism to replace the energy-wasting algorithm of PoW and return Bitcoin to the people.'
   },
   techParams: {
-    title: 'Technical Parameters',
+    title: 'TECHNICAL PARAMETERS',
     desc:
       'BLC successfully forked the Bitcoin network in early January 2018 at the block height 503,200.',
     total: {
@@ -72,60 +72,60 @@ export default {
     }
   },
   mining: {
-    title: 'Mining',
+    title: 'MINING',
     desc:
       'A simple three-step process to enter the low-computing power mining era with access to electronic money.',
     downloadMiningGuide: 'Mining Tutorial',
     step1: {
-      title: 'Download Wallet',
+      title: 'DOWNLOAD WALLET',
       desc:
         'Download the full-node wallet, and sync the ledger data to the local storage device via the P2P network.'
     },
     step2: {
-      title: 'Initialize Hard Drive',
+      title: 'INITIALIZE HARD DRIVE',
       desc:
         'Download the Initialization Program, and initialize your hard drive with your private wallet address.'
     },
     step3: {
-      title: 'Start Mining',
+      title: 'START MINING',
       desc:
         'Download the Mining Program, use initialized data and start mining to get BLC!'
     }
   },
   download: {
-    title: 'Download',
+    title: 'DOWNLOAD',
     desc: 'Full-node wallet is necessary for both ordinary users or miners.',
     windows: {
       req: {
-        title: 'Windows System Requirements',
-        req1: 'Windows 7 64-bits Operating System',
+        title: 'Windows system requirements',
+        req1: 'Windows 7 64-bits operating system',
         req2: 'At least 2GB RAM',
         req3: '200GB remaining hard drive space',
         req4: 'Monitor with at least 1024*768 resolution'
       },
-      downloadWallet: 'Download Wallet',
-      downloadMiningTools: 'Mining Tools'
+      downloadWallet: 'Download wallet',
+      downloadMiningTools: 'Mining tools'
     },
     macos: {
       req: {
-        title: 'macOS System Requirements',
-        req1: 'macOS High Sierra Operating System',
+        title: 'macOS system requirements',
+        req1: 'macOS High Sierra operating system',
         req2: 'At least 2GB RAM',
         req3: '200GB remaining hard drive space',
         req4: 'Monitor with at least 1024*768'
       },
-      downloadWallet: 'Download Wallet',
-      downloadMiningTools: 'Mining Tools'
+      downloadWallet: 'Download wallet',
+      downloadMiningTools: 'Mining tools'
     }
   },
   milestone: {
-    title: 'Milestones',
+    title: 'MILESTONES',
     picurl: 'images/milestone-en.png',
     desc:
       'BalanceCoin’s founding team began to study the POC Consensus in January 2017, and decided to launch the project in September.  Over the past year, the team has devoted a lot of energy to product development, ecosystem development, and community management, and has achieved remarkable industry recognition. The following is a summary of the project progress and future plan. We welcome all BLC believers to work together to build the BLC ecosystem!'
   },
   team: {
-    title: 'Team',
+    title: 'TEAM',
     desc1: "BalanceCoin's team was founded in January, 2017.",
     desc2:
       "BLC's product prototype was created by an American genius mathematician and a Chinese computer geek with their passion for open-source technology and faith in bitcoin. They created BLC with a simple and pure mission: to fulfill Nakamoto’s original intention of allowing everyone to participate in mining through the more energy-saving and fair consensus mechanism of POC.",
@@ -134,13 +134,13 @@ export default {
     desc4:
       'With support from such a nurturing and diverse community , we believe we can build an energy-efficient, easy-to-use, fair, and decentralized blockchain ecosystem for the world.',
     founders: {
-      title: 'Project Initiators'
+      title: 'PROJECT INITIATORS'
     },
     socialOperation: {
-      title: 'Community Managers'
+      title: 'COMMUNITY MANAGERS'
     },
     adviser: {
-      title: 'Advisors'
+      title: 'ADVISORS'
     },
     cicily: {
       title: 'Cicily',
@@ -208,14 +208,14 @@ export default {
     }
   },
   contactus: {
-    title: 'Contact Us',
+    title: 'CONTACT US',
     desc: {
       brief: 'BalanceCoin is an open-source blockchain community.',
       welcomejoin:
         'We continue to push BalanceCoin forward and you are welcome to join us any time.'
     },
     tech: {
-      title: 'Technical Support',
+      title: 'TECHNICAL SUPPORT',
       mtitle: 'Email: ',
       l1: 'If you have any question please contact us,',
       l2:
@@ -224,14 +224,14 @@ export default {
   },
   footer: {
     utilities: {
-      title: 'Utilities',
-      explorer: 'Block-chain Explorer',
-      wallet: 'Online Wallet',
-      pool: 'Mining Pool'
+      title: 'UTILITIES',
+      explorer: 'Block-chain explorer',
+      wallet: 'Online wallet',
+      pool: 'Mining pool'
     }
   },
   supportUs: {
-    title: 'Support Us',
+    title: 'SUPPORT US',
     desc:
       'BalanceCoin is an free open-source project, your support means a lot to us.',
     btns: {
