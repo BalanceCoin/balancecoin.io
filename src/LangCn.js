@@ -237,5 +237,14 @@ export default {
       wallet: '在线钱包',
       pool: '矿池'
     }
+  },
+  supportUs: {
+    title: '支持我们',
+    desc:
+      'BalanceCoin 是一个开源免费的社区，它的不断成长和进步与你们的支持息息相关。',
+    btns: {
+      joinus: '加入团队',
+      donate: '捐赠'
+    }
   }
 }

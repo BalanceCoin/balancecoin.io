@@ -146,31 +146,35 @@ export default {
       title: 'Cicily',
       desc:
         'Co-founder of DaoVentures, investment banking background, ICO Advisor for several leading blockchain projects including ParcelX, DropChain, Robin8, InsChain, and Metaverse;<br />Born in Shanghai, attended university in the USA returned to China in 2014;<br />A strong believer in creating a decentralized ecosystem using blockchain technology;<br />Previous experience includes E&Y, PGC Capital, and Meixin Finance;<br />B. A in Business Administration from Cornel University, USA.',
-      jobdesc: 'In charge of business development, operations strategy and fundraising.'
+      jobdesc:
+        'In charge of business development, operations strategy and fundraising.'
     },
     terry: {
       title: 'Terry Tang',
-      desc:
-        `Terry’s background is mainly in IT, Internet and programming. He studied computer science in his undergrad at HKUST and has received his MBA from MIT Sloan. He is currently an entrepreneur working in the manufacturing sector. His business is to build software for the manufacturing companies in China. His firm also helps them sell products to overseas markets. On the side, I also run an offline singles event called Sparkle, helping top school alums connect with each other.<br />Terry has done extensive research into blockchain and cryptocurrencies, especially Bitcoin-its history and people behind it. He is fascinated by the "greatest invention since the Internet" and believes that's the direction we are all going in the future.<br />His talents in the crypto world lie with writing and understanding technical literature, making decisions on viable technologies, and building a strong industry network through his experiences connecting people.`,
-      jobdesc: 'Main code contributor for BLC, in charge of technology development, user experience.'
+      desc: `Terry’s background is mainly in IT, Internet and programming. He studied computer science in his undergrad at HKUST and has received his MBA from MIT Sloan. He is currently an entrepreneur working in the manufacturing sector. His business is to build software for the manufacturing companies in China. His firm also helps them sell products to overseas markets. On the side, I also run an offline singles event called Sparkle, helping top school alums connect with each other.<br />Terry has done extensive research into blockchain and cryptocurrencies, especially Bitcoin-its history and people behind it. He is fascinated by the "greatest invention since the Internet" and believes that's the direction we are all going in the future.<br />His talents in the crypto world lie with writing and understanding technical literature, making decisions on viable technologies, and building a strong industry network through his experiences connecting people.`,
+      jobdesc:
+        'Main code contributor for BLC, in charge of technology development, user experience.'
     },
     roald: {
       title: 'Roald Munoz',
       desc:
         'Senior Blockchain Industry Researcher at Guotai Junan Securities, a top 3 Chinese investment bank;<br />Crypto VC investor in decentralized technologies, with a focus on protocols, digitial identity, and IoT hardware infrastructure;<br />Raised in Chicago, previous experience in USAF intelligence analysis; now living and working in Shanghai to help create the future of a decentralized economy;',
-      jobdesc: 'In charge of overseas business development and overseas community management.'
+      jobdesc:
+        'In charge of overseas business development and overseas community management.'
     },
     calvin: {
       title: 'Calvin Poon',
       desc:
         'Researcher at Guotai Junan Securities, focusing on blockchain;<br />Business development analyst for OKEX, assisting with project listings;<br />Belief that blockchain will have a huge impact on the world similar to the advent of the internet;<br />B.A. from Boston University with a major in economics and international relations;',
-      jobdesc: 'In charge of community management for the North America market, with a focus on Canada.'
+      jobdesc:
+        'In charge of community management for the North America market, with a focus on Canada.'
     },
     james: {
       title: 'James Kang',
       desc:
         'Former intern at Guotai Junan Securities, taking part many projects via doing research and development;<br />Former leader of a high school rock band and a huge sports fan since the age of six;<br />B.A. from Boston University with a major in economics and minor in Business and Administration;',
-      jobdesc: 'In charge of community management for the North America market, with a focus on the USA.'
+      jobdesc:
+        'In charge of community management for the North America market, with a focus on the USA.'
     },
     audrey: {
       title: 'Audrey Chen',
@@ -214,7 +218,8 @@ export default {
       title: 'Technical Support',
       mtitle: 'Email: ',
       l1: 'If you have any question please contact us,',
-      l2: 'Let us build BalanceCoin community together and let more people know and use BalanceCoin.'
+      l2:
+        'Let us build BalanceCoin community together and let more people know and use BalanceCoin.'
     }
   },
   footer: {
@@ -223,6 +228,15 @@ export default {
       explorer: 'Block-chain Explorer',
       wallet: 'Online Wallet',
       pool: 'Mining Pool'
+    }
+  },
+  supportUs: {
+    title: 'Support us',
+    desc:
+      'BalanceCoin is an open-source project, continuous growth and progress are closely related to your support.',
+    btns: {
+      joinus: 'Join us',
+      donate: 'Donate'
     }
   }
 }

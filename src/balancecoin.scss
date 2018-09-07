@@ -17,6 +17,7 @@ h2 {
 }
 
 p {
+  font-family: 'RobotoThin';
   font-size: 18px;
   font-weight: normal;
   color: $blc-main-text-color;
@@ -60,7 +61,7 @@ p {
   }
 }
 
-@mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin) {
+@mixin button-template($textcolor, $color, $width, $height, $fontsize, $margin, $hovcolor, $hovbkcolor, $hovbdcolor) {
   @include button-links($textcolor);
 
   float: left;
@@ -81,17 +82,18 @@ p {
   transition: color 0.3s, background-color 0.3s;
 
   &:hover {
-    background-color: white;
-    color: black;
+    background-color: $hovbkcolor;
+    color: $hovcolor;
+    border-color: $hovbdcolor;
   }
 }
 
 .blc-button {
-  @include button-template(white, $blc-main-color, 250px, 63px, 20px, 10px);
+  @include button-template(white, $blc-main-color, 250px, 63px, 20px, 10px, $blc-main-color, white, $blc-main-color);
 }
 
 .blc-button-2 {
-  @include button-template($blc-main-color, white, 250px, 63px, 20px, 10px);
+  @include button-template($blc-main-color, white, 250px, 63px, 20px, 10px, white, $blc-main-color, white);
 
   border-style: solid;
   border-width: 1px;
@@ -99,13 +101,22 @@ p {
 }
 
 .blc-button-mid {
-  @include button-template(white, $blc-main-color, 200px, 50px, 16px, 0);
+  @include button-template(white, $blc-main-color, 200px, 50px, 16px, 0, $blc-main-color, white, $blc-main-color);
 
   margin-top: 50px;
 }
 
 .blc-button-mid-2 {
-  @include button-template($blc-main-color, white, 200px, 50px, 16px, 0);
+  @include button-template($blc-main-color, white, 200px, 50px, 16px, 0, white, $blc-main-color, $blc-main-color);
+
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $blc-main-color;
+}
+
+.blc-button-support {
+  @include button-template($blc-main-color, white, 200px, 50px, 16px, 0, white, $blc-main-color, white);
 
   margin-top: 50px;
   border-style: solid;
@@ -139,6 +150,7 @@ p {
     margin: $pads;
     padding: 5px 10px 5px 10px;
     transition: border 0.3s;
+
     span {
       transition: color 0.3s;
     }
@@ -156,6 +168,7 @@ p {
     &:hover {
       color: black;
       text-decoration: none;
+
       span {
         color: $blc-main-color;
       }
@@ -364,5 +377,26 @@ p {
   img {
     width: 100px;
     height: 100px;
+  }
+}
+
+.blc-support {
+  height: 340px;
+  background-color: $blc-main-color;
+}
+
+.blc-nannan {
+  height: 340px;
+}
+
+.blc-support-text {
+  margin: 20px 0 20px 0;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
   }
 }
