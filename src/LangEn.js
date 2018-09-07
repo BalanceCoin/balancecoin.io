@@ -231,9 +231,9 @@ export default {
     }
   },
   supportUs: {
-    title: 'Support us',
+    title: 'Support Us',
     desc:
-      'BalanceCoin is an open-source project, continuous growth and progress are closely related to your support.',
+      'BalanceCoin is an free open-source project, your support means a lot to us.',
     btns: {
       joinus: 'Join us',
       donate: 'Donate'
