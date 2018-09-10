@@ -241,11 +241,11 @@ export default {
     donate: {
       desc: 'In the mean time, we accept donation with bitcoin or ethereum.',
       bitcoin: {
-        title: 'Copy Bitcoin address',
+        title: 'Copy BTC address',
         address: '1GxLexiNEWDyTszhwcng2rKxCkkJAwE4L4'
       },
       eth: {
-        title: 'Copy Ethereum address',
+        title: 'Copy ETH address',
         address: '0x9a1A32C3Dbbe377B49C406322c8B7959376A3512'
       }
     }
