@@ -382,13 +382,24 @@ p {
   }
 }
 
+.blc-support-block {
+  padding-bottom: 30px;
+}
+
 .blc-support {
-  height: 340px;
+  height: 460px;
   background-color: $blc-main-color;
 }
 
+.blc-hiring-email {
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+
 .blc-nannan {
-  height: 340px;
+  height: 460px;
 }
 
 .blc-support-text {

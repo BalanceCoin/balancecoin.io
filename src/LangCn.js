@@ -242,9 +242,20 @@ export default {
     title: '支持我们',
     desc:
       'BalanceCoin 是一个免费的开源项目，它的不断成长和进步与你们的支持息息相关。',
-    btns: {
-      joinus: '加入团队',
-      donate: '捐赠'
+    joinus: {
+      desc: '若你有能力且愿意为BLC社区做出贡献，我们欢迎你向我们投递简历，请将简历发送至：',
+      email: 'hiring@balancecoin.io'
+    },
+    donate: {
+      desc: '同时，我们接收Bitcoin及Ethereum两种数字货币的捐赠，你也可以来信洽谈合作事宜。',
+      bitcoin: {
+        title: '复制Bitcoin地址',
+        address: '1GxLexiNEWDyTszhwcng2rKxCkkJAwE4L4'
+      },
+      eth: {
+        title: '复制Ethereum地址',
+        address: '0x9a1A32C3Dbbe377B49C406322c8B7959376A3512'
+      }
     }
   }
 }

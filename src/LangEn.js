@@ -234,9 +234,20 @@ export default {
     title: 'SUPPORT US',
     desc:
       'BalanceCoin is an free open-source project, your support means a lot to us.',
-    btns: {
-      joinus: 'Join us',
-      donate: 'Donate'
+    joinus: {
+      desc: 'If you would like to contribute to our community, please send us your profile via email.',
+      email: 'hiring@balancecoin.io'
+    },
+    donate: {
+      desc: 'In the mean time, we accept donation with bitcoin or ethereum.',
+      bitcoin: {
+        title: 'Copy Bitcoin address',
+        address: '1GxLexiNEWDyTszhwcng2rKxCkkJAwE4L4'
+      },
+      eth: {
+        title: 'Copy Ethereum address',
+        address: '0x9a1A32C3Dbbe377B49C406322c8B7959376A3512'
+      }
     }
   }
 }
