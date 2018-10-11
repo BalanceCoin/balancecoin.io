@@ -33,7 +33,6 @@ class ContactUs extends Component {
 
   render() {
     const localText = this.props.contactus
-    console.log(localText)
     return (
       <div id="contact" className="container-fluid blc-page">
         <div className="container">

@@ -41,12 +41,12 @@ class LandingPage extends Component {
         <div className="row">
           <div className="col-md-6 col-md-offset-3">
             <a href="#download" className="blc-button">
-              <span class="glyphicon glyphicon-download-alt" />
+              <span className="glyphicon glyphicon-download-alt" />
               &nbsp;&nbsp;
               {localText.downloadWalletBtn}
             </a>
             <a href="#download" className="blc-button-2">
-              <span class="glyphicon glyphicon glyphicon-hdd" />
+              <span className="glyphicon glyphicon glyphicon-hdd" />
               &nbsp;&nbsp;
               {localText.downloadMinerBtn}
             </a>
