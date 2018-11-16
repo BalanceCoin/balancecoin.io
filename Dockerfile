@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:latest
 
 # Copy source and build
 COPY . /app/
