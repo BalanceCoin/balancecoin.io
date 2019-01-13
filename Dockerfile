@@ -10,7 +10,7 @@ RUN apk update && \
   npm i && \
   npm run build && \
   apk del python g++ autoconf automake make && \
-  rm -rf /app/node_modules /app/src
+  rm -rf /app/src
 
 CMD [ "/app/node_modules/serve/bin/serve.js", "-l", "tcp://0.0.0.0:5000", "-s", "/app/build" ]
 
